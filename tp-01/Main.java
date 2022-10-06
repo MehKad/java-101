@@ -1,7 +1,11 @@
 import java.util.Scanner;
 
+
 public class Main {
-    public static void main(String[] args) throws Exception {
+        public static int somme(int a, int b) {
+                return a+b;
+        }
+        public static void main(String[] args) throws Exception {
         System.out.println("Enter ur birth month :");        
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -35,5 +39,11 @@ public class Main {
         }
         else System.out.println("Invalid month");
         
+        System.out.println("************************Calculating a sum of 2 numbers************************");
+        System.out.println("enter a :");
+        int x = sc.nextInt();
+        System.out.println("enter b :");
+        int y = sc.nextInt();
+        System.out.println("La somme est : "+somme(x,y));
     }
 }
