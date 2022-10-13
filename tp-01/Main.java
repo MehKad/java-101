@@ -63,7 +63,7 @@ public class Main {
                 System.out.println("The sum is " + ss);
 
         }
-
+//Fonction : 
         public static int somme(int a, int b) {
                 return a + b;
         }
